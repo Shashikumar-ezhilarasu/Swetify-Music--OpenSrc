@@ -335,9 +335,24 @@
         <!-- Your main content goes here -->
         <div id="cont2">
           <div style="padding:28vh 0px ; height: 100vh; margin-top: 80px; text-align: center; ">
-            <h1>
+            <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 700; background: linear-gradient(to right, rgb(142, 2, 235), white); -webkit-background-clip: text; color: transparent; animation: textColorChange 5s ease infinite;">
               Welcome to Swetify Music
             </h1>
+            
+            <style>
+              @keyframes textColorChange {
+                0% {
+                  color: rgb(142, 2, 235);
+                }
+                50% {
+                  color: rgb(255, 165, 0); /* Orange */
+                }
+                100% {
+                  color: rgb(240, 102, 10); /* Purple */
+                }
+              }
+            </style>
+            
             <br>
             <i style="font-size: 18px;">The ultimate music streaming platform for real music enthusiasts.</i><br>
 
